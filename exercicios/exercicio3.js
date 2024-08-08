@@ -1,6 +1,6 @@
-let calcularSalario = (qtdHorasTrabalhadas, salarioPorHora) => {
+function calcularSalario(qtdHorasTrabalhadas, salarioPorHora){
     let salarioMensal = qtdHorasTrabalhadas * salarioPorHora;
-    console.log(`Salário igual a R$ ${salarioMensal}`);
+    return(`Salário igual a R$ ${salarioMensal}`);
 }
 
-calcularSalario(150, 40.5);
+console.log(calcularSalario(150, 40.5));

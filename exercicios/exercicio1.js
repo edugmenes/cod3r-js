@@ -1,6 +1,6 @@
 let cumprimentar = (nome) => {
-    console.log(`Olá, ${nome}!`);
+    return(`Olá, ${nome}!`);
 }
 
-cumprimentar("Leonardo");
-cumprimentar("Maria");
+console.log(cumprimentar("Leonardo"));
+console.log(cumprimentar("Maria"));

@@ -1,8 +1,7 @@
 let converterIdadeEmAnosParaDias = (idadeEmAnos) => {
     let idadeEmDias = idadeEmAnos * 365;
-    console.log(idadeEmDias);
     return idadeEmDias;
 }
 
-converterIdadeEmAnosParaDias(25);
-converterIdadeEmAnosParaDias(70);
+console.log(converterIdadeEmAnosParaDias(25));
+console.log(converterIdadeEmAnosParaDias(70));
